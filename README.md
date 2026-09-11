@@ -1,6 +1,6 @@
 # Oficina Fase 3 — Database Infra Docs
 
-Documentação específica do RDS PostgreSQL, modelo relacional, diagrama ER, consistência e desempenho. A arquitetura integrada permanece no [repositório central](https://github.com/tiagomiele/fiap-tech-challenge-fase3-oficina-backend-docs).
+Documentação específica do RDS PostgreSQL, modelo relacional, diagrama ER, consistência e desempenho. A arquitetura integrada permanece no [repositório central](https://github.com/tiagomiele/backend).
 
 Projeto original: [fiap-tech-challenge-fase3-oficina-database-infra](https://github.com/tiagomiele/fiap-tech-challenge-fase3-oficina-database-infra)
 
@@ -10,7 +10,7 @@ Projeto original: [fiap-tech-challenge-fase3-oficina-database-infra](https://git
 - [Diagrama ER editável](docs/diagrams/er-model.mmd)
 - [Consistência do modelo](docs/adr/0001-consistencia-modelo.md)
 - [Índices e desempenho](docs/indices-desempenho.md)
-- [RFC da escolha do PostgreSQL](https://github.com/tiagomiele/fiap-tech-challenge-fase3-oficina-backend-docs/blob/main/docs/decisions/rfc/0002-postgresql-rds.md)
+- [RFC da escolha do PostgreSQL](https://github.com/tiagomiele/backend/blob/documentation/docs/decisions/rfc/0002-postgresql-rds.md)
 
 ## Tecnologias
 
