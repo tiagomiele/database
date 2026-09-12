@@ -24,16 +24,7 @@ As migrations Flyway V1–V4 permanecem no Backend como fonte executável do sch
 
 ## Arquitetura do componente
 
-```mermaid
-flowchart LR
-    A[Auth: cliente ativo] --> R[(RDS PostgreSQL privado)]
-    B[Backend: operação da oficina] --> R
-    V[VPC e sub-redes privadas] --> R
-    T[HCP Terraform] --> R
-    R --> C[CloudWatch Logs]
-    C --> L[Lambda de telemetria]
-    L --> N[New Relic]
-```
+![Arquitetura do Database com RDS PostgreSQL privado, Terraform e observabilidade](docs/assets/arquitetura-database.png)
 
 ## Modelo arquitetural e práticas
 
@@ -76,8 +67,8 @@ Pull Requests executam CI e Terraform Plan sem apply. O merge em `homolog` provi
 ## Documentação técnica
 
 - [Modelo relacional e relacionamentos](docs/modelo-relacional.md)
-- [Diagrama ER editável](docs/diagrams/er-model.mmd)
-- [Visualização do diagrama ER](docs/diagrams/er-model.svg)
+- [Visualização do modelo relacional](docs/assets/modelo-relacional-database.png)
+- [Fonte Mermaid editável do diagrama ER](docs/diagrams/er-model.mmd)
 - [Consistência do modelo](docs/adr/0001-consistencia-modelo.md)
 - [Índices e desempenho](docs/indices-desempenho.md)
 - [RFC da escolha do PostgreSQL](https://github.com/tiagomiele/backend/blob/documentation/docs/decisions/rfc/0002-postgresql-rds.md)

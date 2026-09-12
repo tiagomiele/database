@@ -57,7 +57,7 @@ As migrations vivem no repositório Backend. Este documento apresenta o modelo r
 
 ## Diagrama
 
-- [Visualização SVG](diagrams/er-model.svg)
-- [Fonte Mermaid](diagrams/er-model.mmd)
+- [Visualização organizada por domínio](assets/modelo-relacional-database.png)
+- [Fonte Mermaid editável](diagrams/er-model.mmd)
 - [Decisão de consistência](adr/0001-consistencia-modelo.md)
 - [Revisão de desempenho](indices-desempenho.md)
